@@ -16,6 +16,7 @@ import {
   GraduationCap,
   HeartHandshake,
   Instagram,
+  Linkedin,
   Mail,
   MapPin,
   Menu,
@@ -1526,31 +1527,44 @@ function Footer() {
       {/* BOTTOM FOOTER */}
       <div className="footerBottom">
         <p className="copyright">
-          © {new Date().getFullYear()} IEC School of Art & Fashion. All Rights
-          Reserved.
+          © {new Date().getFullYear()} IEC School of Art & Fashion. All Rights Reserved.
         </p>
 
-        {/* POWERED BY */}
-        <div className="poweredBy">
-          <a
-            href="https://fabulousmedia.in/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="FabulousMedia"
-          >
-            <img src="public/image.png" alt="FabulousMedia" />
-          </a>
+        <div className="footerBottomRight">
+          <div className="footerLinks">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
 
-          <span className="divider" />
 
-          <a
-            href="https://gocommercially.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GoCommercially"
-          >
-            <img src="public/go.png" alt="GoCommercially" />
-          </a>
+
+          <div className="footerSocials">
+
+
+            <a
+              href="https://fabulousmedia.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/image.png" alt="FabulousMedia" />
+            </a>
+
+            <a
+              href="https://gocommercially.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/go.png" alt="GoCommercially" />
+            </a>
+
+            <span className="socialDivider"></span>
+
+
+
+          </div>
+
+
         </div>
       </div>
     </footer>
